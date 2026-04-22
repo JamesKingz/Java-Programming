@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class DayCalculatorUsingSum {
     public static void main(String[] args) {
-        / Accepting input_1
+//Accepting input_1
         System.out.println("Enter number: ");
         Scanner MyScanner = new Scanner(System.in);
         int Number = MyScanner.nextInt();
@@ -17,7 +17,7 @@ public class DayCalculatorUsingSum {
         MyScanner.close();
 // Conditional statement to print when condition 1 is fulfilled
 
-        if (sum<5) {
+        if (sum<=5) {
          switch (sum) {
             case 1:
                 System.out.println("Monday");
