@@ -8,11 +8,9 @@ public class DayCalculatorUsingSum {
         int Number = MyScanner.nextInt();
 //Accepting input_2
         System.out.println("Enter the second Number: ");
-        Scanner Myscanner = new Scanner(System.in);
-        int Number2 = Myscanner.nextInt();
+        int Number2 = MyScanner.nextInt();
         int sum = Number + Number2;
         System.out.println();
-
 // closing Scanner Util.
         MyScanner.close();
 // Conditional statement to print when condition 1 is fulfilled
